@@ -1,0 +1,6 @@
+{
+  "name": "釜山安妞 2027 Happy New Year",
+  "description": "專屬釜山跨年五天四夜質感手帳旅行 App，含兩階段合體跨年倒數、元旦全天璀璨煙火美式賀卡、六大分區完整景點清單、即時氣象連線、登機證預訂管理與長按拖曳記帳工具。",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

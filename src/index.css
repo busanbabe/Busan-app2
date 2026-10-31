@@ -1,0 +1,63 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    background-color: #FAF7F2;
+    color: #1D2038;
+    font-family: 'Quicksand', 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+  }
+}
+
+.font-cute {
+  font-family: 'Comfortaa', 'Quicksand', cursive, sans-serif;
+}
+
+.font-sans-cute {
+  font-family: 'Quicksand', 'Plus Jakarta Sans', 'Noto Sans TC', sans-serif;
+}
+
+/* Playful gentle float animation */
+@keyframes cuteFloat {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-5px) rotate(1.5deg);
+  }
+}
+
+@keyframes cuteWiggle {
+  0%, 100% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(-3deg);
+  }
+  75% {
+    transform: rotate(3deg);
+  }
+}
+
+.animate-cute-float {
+  animation: cuteFloat 4s ease-in-out infinite;
+}
+
+.animate-cute-wiggle {
+  animation: cuteWiggle 3s ease-in-out infinite;
+}
+
+/* Custom soft scrollbar */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF7F2;
+}
+::-webkit-scrollbar-thumb {
+  background: #E4DDD1;
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D2C8BA;
+}
